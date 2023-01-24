@@ -21,6 +21,16 @@ In order to ensure reproducability of the results in the paper, the code usage i
 - Set your technical indicators.
 - Computes automatically the exact start and end dates for training and validation, respectively, based on your trade start date and end date.
 
+
+https://github.com/AI4Finance-Foundation/ElegantRL
+
+A short description of each folder:
+- ```data``` Contains all your training/validation data in the main folder, and a subfolder which contains ```trade_data``` after download using both ```0_DL1_trainval_data.py``` and ```0_DL2_trade_data.py``` (more later)
+- ```drl_agents``` Contains the DRL framework [ElegantRL]([/guides/content/editing-an-existing-page](https://arxiv.org/abs/2209.05559)). ElegantRL implements a series of model-free DRL algorithms
+- ```plots_and_metrics``` Dump folder for all analysis images and performance metrics produced
+- ```train``` Holds all utility functions for DRL training
+- ```train_results``` After running either ```1_optimize_CPCV.py``` /  ```1_optimize_K_CrossValidation.py``` / ```1_optimize_WalkForward.py``` will have a folder with your trained DRL agents
+
 After that, the order of running and producing similar results to in the paper are simple done by following the numbered Python files in the order indicated by the number before the file:
 
 - ```0_DL1_trainval_data.py```  Downloads the train and validation data according to ```config_main.py```
