@@ -1,4 +1,4 @@
-# FinRL-Crypto: A Framework to avoid Overfitting your DRL Agents
+# FinRL-Crypto: A Framework to Avoid Overfitting your DRL Agents
 
 ![finrl_crypto_banner](https://user-images.githubusercontent.com/69801109/214262094-3a23e836-f820-4500-ad03-8a646554904f.png)
 
