@@ -26,7 +26,7 @@ https://github.com/AI4Finance-Foundation/ElegantRL
 
 A short description of each folder:
 - ```data``` Contains all your training/validation data in the main folder, and a subfolder which contains ```trade_data``` after download using both ```0_DL1_trainval_data.py``` and ```0_DL2_trade_data.py``` (more later)
-- ```drl_agents``` Contains the DRL framework [ElegantRL]([/guides/content/editing-an-existing-page](https://arxiv.org/abs/2209.05559)). ElegantRL implements a series of model-free DRL algorithms
+- ```drl_agents``` Contains the DRL framework [ElegantRL]([/guides/content/editing-an-existing-page](https://arxiv.org/abs/2209.05559)) which implements a series of model-free DRL algorithms
 - ```plots_and_metrics``` Dump folder for all analysis images and performance metrics produced
 - ```train``` Holds all utility functions for DRL training
 - ```train_results``` After running either ```1_optimize_CPCV.py``` /  ```1_optimize_K_CrossValidation.py``` / ```1_optimize_WalkForward.py``` will have a folder with your trained DRL agents
