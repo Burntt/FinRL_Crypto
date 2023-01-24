@@ -24,7 +24,7 @@ In order to ensure reproducability of the results in the paper, the code usage i
 After that, the order of running and producing similar results to in the paper are simple done by following the numbered Python files in the order indicated by the number before the file:
 
 - ```0_DL1_trainval_data.py```  Downloads the train and validation data according to ```config_main.py```
-- ```0_DL2_trade_data.py** Downloads the trade data according to ```config_main.py```
+- ```0_DL2_trade_data.py``` Downloads the trade data according to ```config_main.py```
 - ```1_optimize_CPCV.py``` Optimizes hyperparameters with a Combinatorial Purged Cross-validation scheme
 - ```1_optimize_K_CrossValidation.py``` Optimizes hyperparameters with a K-Fold Cross-validation scheme
 - ```1_optimize_WalkForward.py``` Optimizes hyperparameters with a Walk-forward scheme
