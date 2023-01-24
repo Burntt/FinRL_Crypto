@@ -32,7 +32,7 @@ After that, the order of running and producing similar results to in the paper a
 - ```4_backtestpy``` Backtests trained DRL agents (enter multiple results folders from train_results in a list)
 - ```5_PBO.py``` Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
 
-Simply run the scripts in this order. Please not all the trained agents are auto-saved to the folder ```train_results```. That is where you can find your DRL agents!
+Simply run the scripts in this order. Please note all the trained agents are auto-saved to the folder ```train_results```. That is where you can find your trained DRL agents!
 
 ## Citing FinRL-Crypto
 ```
