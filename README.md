@@ -23,14 +23,14 @@ In order to ensure reproducability of the results in the paper, the code usage i
 
 After that, the order of running and producing similar results to in the paper are simple done by following the numbered Python files in the order indicated by the number before the file:
 
-- **0_DL1_trainval_data.py** &rarr Downloads the train and validation data according to ```config_main.py```
-- **0_DL2_trade_data.py** &rarr Downloads the trade data according to ```config_main.py```
-- **1_optimize_CPCV.py``` &rarr Optimizes hyperparameters with a Combinatorial Purged Cross-validation scheme
-- **1_optimize_K_CrossValidation.py``` &rarr Optimizes hyperparameters with a K-Fold Cross-validation scheme
-- **1_optimize_WalkForward.py``` &rarr Optimizes hyperparameters with a Walk-forward scheme
-- **2_validate.py``` &rarr Shows insights about the training and validation process (select a results folder from train_results)
-- **4_backtestpy``` &rarr Backtests trained DRL agents (enter multiple results folders from train_results in a list)
-- **5_PBO.py``` &rarr Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
+- ```0_DL1_trainval_data.py```  Downloads the train and validation data according to ```config_main.py```
+- ```0_DL2_trade_data.py** Downloads the trade data according to ```config_main.py```
+- ```1_optimize_CPCV.py``` Optimizes hyperparameters with a Combinatorial Purged Cross-validation scheme
+- ```1_optimize_K_CrossValidation.py``` Optimizes hyperparameters with a K-Fold Cross-validation scheme
+- ```1_optimize_WalkForward.py``` Optimizes hyperparameters with a Walk-forward scheme
+- ```2_validate.py``` Shows insights about the training and validation process (select a results folder from train_results)
+- ```4_backtestpy``` Backtests trained DRL agents (enter multiple results folders from train_results in a list)
+- ```5_PBO.py``` Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
 
 Simply run the scripts in this order. Please not all the trained agents are auto-saved to the folder ```train_results```. That is where you can find your DRL agents!
 
