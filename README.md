@@ -4,7 +4,7 @@
 
 Using deep reinforcement learning, we've found a way to avoid the dreaded overfitting trap and increase your chances of success in the wild world of crypto. Our approach has been tested on 10 different currencies and during a market crash, and has proven to be more profitable than the competition. So, don't just sit there, join us on our journey to the top of the crypto mountain! 
 
-The original paper authored by [Berend Gort](https://www.linkedin.com/in/bjdg/) can be found [here]([/guides/content/editing-an-existing-page](https://arxiv.org/abs/2209.05559))!
+The original paper authored by [Berend Gort](https://www.linkedin.com/in/bjdg/) and Xiaoyang-Liu can be found [here]([/guides/content/editing-an-existing-page](https://arxiv.org/abs/2209.05559))!
 
 ## Collaborators
 
