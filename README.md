@@ -5,11 +5,7 @@
 
 [![Downloads](https://arxiv.org/abs/2209.05559)](https://arxiv.org/abs/2209.05559)
 
-Get ready to make some crypto cash with our new and improved trading strategy! Using deep reinforcement learning, 
-we've found a way to avoid the dreaded overfitting trap and increase your chances of success in the wild world of crypto. 
-Our approach has been tested on 10 different currencies and during a market crash, 
-and has proven to be more profitable than the competition. 
-So, don't just sit there, join us on our journey to the top of the crypto mountain!"
+Using deep reinforcement learning, we've found a way to avoid the dreaded overfitting trap and increase your chances of success in the wild world of crypto. Our approach has been tested on 10 different currencies and during a market crash, and has proven to be more profitable than the competition. So, don't just sit there, join us on our journey to the top of the crypto mountain!"
 
 [1.1]: http://www.tensorlet.org/wp-content/uploads/2021/01/button_twitter_22x22.png
 [1.2]: http://www.tensorlet.org/wp-content/uploads/2021/01/facebook-button_22x22.png
