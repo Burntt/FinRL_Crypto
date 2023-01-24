@@ -1,4 +1,4 @@
-# FinRL-Crypto: A Framework to Avoid Overfitting your DRL Agents for Cryptocurrency Trading 
+# FinRL-Crypto: A Framework to Address Overfitting Your DRL Agents for Cryptocurrency Trading 
 
 ![banner](https://user-images.githubusercontent.com/69801109/214294114-a718d378-6857-4182-9331-20869d64d3d9.png)
 
@@ -43,7 +43,6 @@ Simply run the scripts in this order. Please note all the trained agents are aut
 ## Citing FinRL-Crypto
 ```
 @article{Gort2022,
-abstract = {Designing profitable and reliable trading strategies is challenging in the highly volatile cryptocurrency market. Existing works applied deep reinforcement learning methods and optimistically reported increased profits in backtesting, which may suffer from the false positive issue due to overfitting. In this paper, we propose a practical approach to address backtest overfitting for cryptocurrency trading using deep reinforcement learning. First, we formulate the detection of backtest overfitting as a hypothesis test. Then, we train the DRL agents, estimate the probability of overfitting, and reject the overfitted agents, increasing the chance of good trading performance. Finally, on 10 cryptocurrencies over a testing period from 05/01/2022 to 06/27/2022 (during which the crypto market crashed two times), we show that the less overfitted deep reinforcement learning agents have a higher return than that of more overfitted agents, an equal weight strategy, and the S&P DBM Index (market benchmark), offering confidence in possible deployment to a real market.},
 archivePrefix = {arXiv},
 arxivId = {2209.05559},
 author = {Gort, Berend Jelmer Dirk and Liu, Xiao-Yang and Sun, Xinghang and Gao, Jiechao and Chen, Shuaiyu and Wang, Christina Dan},
