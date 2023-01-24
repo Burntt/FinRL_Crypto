@@ -8,7 +8,7 @@ The original paper authored by [Berend Gort](https://www.linkedin.com/in/bjdg/) 
 
 ## Collaborators
 
-Berend Gort is a highly skilled and experienced Machine Learning Engineer with a strong background in Robotics Engineering. He recently worked as a research assistant at Columbia University and published a paper at the AAAI '23, where he developed a solution that reduces overfitting in deep reinforcement learning models in finance by 46% compared to traditional methods. Berend is also passionate about meeting new people and is actively involved in the AI4Finance community.
+Berend Gort is a highly skilled and experienced Machine Learning Engineer with a strong background in Robotics Engineering. He recently worked as a research assistant at Columbia University and published the paper associated with this code at the AAAI '23, where he developed a solution that reduces overfitting in deep reinforcement learning models in finance by 46% compared to traditional methods. Berend is also passionate about meeting new people and is actively involved in the AI4Finance community.
 
 
 ## Outline
