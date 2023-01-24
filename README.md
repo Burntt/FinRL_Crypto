@@ -1,8 +1,6 @@
 # FinRL-Crypto: A Framework to avoid Overfitting your DRL Agents
 
-<div align="center">
-<img align="center" src=[figs/logo_transparent_background.png](https://ibb.co/3M2GH2p) width="55%"/>
-</div>
+![alt text]([http://url/to/img.png](https://ibb.co/3M2GH2p))
 
 
 [![Downloads](https://arxiv.org/abs/2209.05559)](https://arxiv.org/abs/2209.05559)
