@@ -2,9 +2,6 @@
 
 ![finrl_crypto_banner](https://user-images.githubusercontent.com/69801109/214262094-3a23e836-f820-4500-ad03-8a646554904f.png)
 
-[![Downloads](.. image:: https://static.pepy.tech/personalized-badge/finrl?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
- :target: https://pepy.tech/project/finrl)]([https://pepy.tech/project/finrl](https://static.pepy.tech/personalized-badge/finrl?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads))
-
 Using deep reinforcement learning, we've found a way to avoid the dreaded overfitting trap and increase your chances of success in the wild world of crypto. Our approach has been tested on 10 different currencies and during a market crash, and has proven to be more profitable than the competition. So, don't just sit there, join us on our journey to the top of the crypto mountain!"
 
 [1.1]: http://www.tensorlet.org/wp-content/uploads/2021/01/button_twitter_22x22.png
