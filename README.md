@@ -8,7 +8,7 @@ The original [paper](https://arxiv.org/abs/2209.05559) authored by [Berend Gort]
 
 ## Collaborators
 
-Berend Gort and Xiaoyang-Liu are skilled and experienced Machine Learning Engineers. Berend recently worked as a research assistant at Columbia University and published the [paper](https://arxiv.org/abs/2209.05559) associated with this code at the AAAI '23, where he developed a solution that reduces overfitting in deep reinforcement learning models in finance by 46% compared to traditional methods. Berend is also passionate about meeting new people and is actively involved in the AI4Finance community.
+Berend Gort and Xiaoyang-Liu are Machine Learning Engineers. Berend recently worked as a research assistant at Columbia University and published the [paper](https://arxiv.org/abs/2209.05559) associated with this code at the AAAI '23, where he developed a solution that reduces overfitting in deep reinforcement learning models in finance by 46% compared to traditional methods. Berend is also passionate about meeting new people and is actively involved in the AI4Finance community.
 
 
 ## How to use the Framework
