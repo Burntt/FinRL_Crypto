@@ -2,11 +2,21 @@
 
 [![Downloads](https://arxiv.org/abs/2209.05559)](https://arxiv.org/abs/2209.05559)
 
-"Get ready to make some crypto cash with our new and improved trading strategy! Using deep reinforcement learning, 
+Get ready to make some crypto cash with our new and improved trading strategy! Using deep reinforcement learning, 
 we've found a way to avoid the dreaded overfitting trap and increase your chances of success in the wild world of crypto. 
 Our approach has been tested on 10 different currencies and during a market crash, 
 and has proven to be more profitable than the competition. 
 So, don't just sit there, join us on our journey to the top of the crypto mountain!"
+
+[1.1]: http://www.tensorlet.org/wp-content/uploads/2021/01/button_twitter_22x22.png
+[1.2]: http://www.tensorlet.org/wp-content/uploads/2021/01/facebook-button_22x22.png
+[1.3]: http://www.tensorlet.org/wp-content/uploads/2021/01/button_google_22.xx_.png
+[1.4]: http://www.tensorlet.org/wp-content/uploads/2021/01/button_linkedin_22x22.png
+
+[1]: https://twitter.com/intent/tweet?text=FinRL-Financial-Deep-Reinforcement-Learning%20&url=https://github.com/AI4Finance-Foundation/FinRL&hashtags=DRL&hashtags=AI
+[2]: https://www.facebook.com/sharer.php?u=http%3A%2F%2Fgithub.com%2FAI4Finance-Foundation%2FFinRL
+[3]: https://plus.google.com/share?url=https://github.com/AI4Finance-Foundation/FinRL
+[4]: https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Fgithub.com%2FAI4Finance-Foundation%2FFinRL
 
 ## Outline
 
