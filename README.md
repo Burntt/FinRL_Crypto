@@ -22,22 +22,22 @@ In order to ensure reproducability of the results in the paper, the code usage i
 - Computes automatically the exact start and end dates for training and validation, respectively, based on your trade start date and end date.
 
 A short description of each folder:
-- ```data``` Contains all your training/validation data in the main folder, and a subfolder which contains ```trade_data``` after download using both ```0_DL1_trainval_data.py``` and ```0_DL2_trade_data.py``` (more later)
+- ```data``` Contains all your training/validation data in the main folder, and a subfolder which contains ```trade_data``` after download using both ```0_dl_trainval_data.py``` and ```0_dl_trade_data.py``` (more later)
 - ```drl_agents``` Contains the DRL framework [ElegantRL]([/guides/content/editing-an-existing-page](https://arxiv.org/abs/2209.05559)) which implements a series of model-free DRL algorithms
 - ```plots_and_metrics``` Dump folder for all analysis images and performance metrics produced
 - ```train``` Holds all utility functions for DRL training
-- ```train_results``` After running either ```1_optimize_CPCV.py``` /  ```1_optimize_K_CrossValidation.py``` / ```1_optimize_WalkForward.py``` will have a folder with your trained DRL agents
+- ```train_results``` After running either ```1_optimize_cpcv.py``` /  ```1_optimize_kcv.py``` / ```1_optimize_wf.py``` will have a folder with your trained DRL agents
 
 After that, the order of running and producing similar results to in the paper are simple done by following the numbered Python files in the order indicated by the number before the file:
 
-- ```0_DL1_trainval_data.py```  Downloads the train and validation data according to ```config_main.py```
-- ```0_DL2_trade_data.py``` Downloads the trade data according to ```config_main.py```
-- ```1_optimize_CPCV.py``` Optimizes hyperparameters with a Combinatorial Purged Cross-validation scheme
-- ```1_optimize_K_CrossValidation.py``` Optimizes hyperparameters with a K-Fold Cross-validation scheme
-- ```1_optimize_WalkForward.py``` Optimizes hyperparameters with a Walk-forward validation scheme
+- ```0_dl_trainval_data.py```  Downloads the train and validation data according to ```config_main.py```
+- ```0_dl_trade_data.py``` Downloads the trade data according to ```config_main.py```
+- ```1_optimize_cpcv.py``` Optimizes hyperparameters with a Combinatorial Purged Cross-validation scheme
+- ```1_optimize_kcv.py``` Optimizes hyperparameters with a K-Fold Cross-validation scheme
+- ```1_optimize_wf.py``` Optimizes hyperparameters with a Walk-forward validation scheme
 - ```2_validate.py``` Shows insights about the training and validation process (select a results folder from train_results)
 - ```4_backtestpy``` Backtests trained DRL agents (enter multiple results folders from train_results in a list)
-- ```5_PBO.py``` Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
+- ```5_pbo.py``` Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
 
 Simply run the scripts in this order. Please note all the trained agents are auto-saved to the folder ```train_results```. That is where you can find your trained DRL agents!
 
