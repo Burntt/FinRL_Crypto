@@ -1,10 +1,17 @@
 # FinRL-Crypto: A Framework to Avoid Overfitting your DRL Agents for Cryptocurrency Trading 
 
-[1.4]: http://www.tensorlet.org/wp-content/uploads/2021/01/button_linkedin_22x22.png
-
 ![finrl_crypto_banner](https://user-images.githubusercontent.com/69801109/214262094-3a23e836-f820-4500-ad03-8a646554904f.png)
 
 Using deep reinforcement learning, we've found a way to avoid the dreaded overfitting trap and increase your chances of success in the wild world of crypto. Our approach has been tested on 10 different currencies and during a market crash, and has proven to be more profitable than the competition. So, don't just sit there, join us on our journey to the top of the crypto mountain!"
+
+The paper associated with this code:
+
+https://arxiv.org/abs/2209.05559
+
+## Collaborators
+
+Berend Gort is a highly skilled and experienced Machine Learning Engineer with a strong background in Robotics Engineering. He recently worked as a research assistant at Columbia University and published a paper at the AAAI '23, where he developed a solution that reduces overfitting in deep reinforcement learning models in finance by 46% compared to traditional methods. Berend is also passionate about meeting new people and is actively involved in the AI4Finance community.
+
 
 ## Outline
 
@@ -29,13 +36,4 @@ volume = {1},
 year = {2022}
 }
 
-```
-
-## Collaborators
-
-<div align="center">
-<img align="center" src=figs/Columbia_logo.jpg width="120"> &nbsp;&nbsp;
-<img align="center" src=figs/IDEA_Logo.png width="200"> &nbsp;&nbsp;
-<img align="center" src=figs/Northwestern_University.png width="120"> &nbsp;&nbsp;
-<img align="center" src=figs/NYU_Shanghai_Logo.png width="200">	&nbsp;&nbsp;
-</div>
+``'
