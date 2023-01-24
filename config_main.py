@@ -47,15 +47,17 @@ trade_end_date = '2022-06-27 00:00:00'
 
 SEED_CFG = 2390408
 TIMEFRAME = '5m'
-H_TRIALS = 3
-K_TEST_GROUPS = 2
-NUM_PATHS = 2
+H_TRIALS = 50
 KCV_groups = 5
+K_TEST_GROUPS = 2
+NUM_PATHS = 4
 N_GROUPS = NUM_PATHS + 1
 NUMBER_OF_SPLITS = nCr(N_GROUPS, N_GROUPS - K_TEST_GROUPS)
 
-no_candles_for_train = 200
-no_candles_for_val = 50
+print(NUMBER_OF_SPLITS)
+
+no_candles_for_train = 20000
+no_candles_for_val = 5000
 
 TICKER_LIST = ['AAVEUSDT',
                'AVAXUSDT',
