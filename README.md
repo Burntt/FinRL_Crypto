@@ -27,7 +27,7 @@ After that, the order of running and producing similar results to in the paper a
 - ```0_DL2_trade_data.py``` Downloads the trade data according to ```config_main.py```
 - ```1_optimize_CPCV.py``` Optimizes hyperparameters with a Combinatorial Purged Cross-validation scheme
 - ```1_optimize_K_CrossValidation.py``` Optimizes hyperparameters with a K-Fold Cross-validation scheme
-- ```1_optimize_WalkForward.py``` Optimizes hyperparameters with a Walk-forward scheme
+- ```1_optimize_WalkForward.py``` Optimizes hyperparameters with a Walk-forward validation scheme
 - ```2_validate.py``` Shows insights about the training and validation process (select a results folder from train_results)
 - ```4_backtestpy``` Backtests trained DRL agents (enter multiple results folders from train_results in a list)
 - ```5_PBO.py``` Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
