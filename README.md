@@ -41,19 +41,12 @@ After that, the order of running and producing similar results to in the paper a
 Simply run the scripts in this order. Please note all the trained agents are auto-saved to the folder ```train_results```. That is where you can find your trained DRL agents!
 
 ## Citing FinRL-Crypto
+
 ```
-@article{Gort2022,
-archivePrefix = {arXiv},
-arxivId = {2209.05559},
-author = {Gort, Berend Jelmer Dirk and Liu, Xiao-Yang and Sun, Xinghang and Gao, Jiechao and Chen, Shuaiyu and Wang, Christina Dan},
-booktitle = {Proceedings of 3rd ACM International Conference on AI in Finance (ICAIF)},
-doi = {10.48550/arXiv.2209.05559},
-eprint = {2209.05559},
-keywords = {Deep reinforcement learning, Markov Decision Process, cryptocurrency trading, backtest overfitting,acm reference format,backtest overfitting,cryptocur-,deep reinforcement learning,markov decision process,rency trading},
-publisher = {Association for Computing Machinery},
-title = {{Deep Reinforcement Learning for Cryptocurrency Trading: Practical Approach to Address Backtest Overfitting}},
-url = {http://arxiv.org/abs/2209.05559%0Ahttp://dx.doi.org/10.48550/arXiv.2209.05559},
-volume = {1},
-year = {2022}
+@article{gort2022deep,
+  title={Deep reinforcement learning for cryptocurrency trading: Practical approach to address backtest overfitting},
+  author={Gort, Berend Jelmer Dirk and Liu, Xiao-Yang and Gao, Jiechao and Chen, Shuaiyu and Wang, Christina Dan},
+  journal={AAAI Bridge on AI for Financial Services},
+  year={2023}
 }
 ```
