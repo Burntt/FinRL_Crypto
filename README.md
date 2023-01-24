@@ -1,4 +1,4 @@
-# FinRL-Crypto: A Framework to Avoid Overfitting your Crypto DRL Agents for Cryptocurrency Trading 
+# FinRL-Crypto: A Framework to Avoid Overfitting your DRL Agents for Cryptocurrency Trading 
 
 ![banner](https://user-images.githubusercontent.com/69801109/214294114-a718d378-6857-4182-9331-20869d64d3d9.png)
 
