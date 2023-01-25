@@ -10,9 +10,9 @@ Berend Gort is an Machine Learning Engineer. Berend recently worked as a researc
 
 The original [paper](https://arxiv.org/abs/2209.05559) authored by [Berend Gort](https://www.linkedin.com/in/bjdg/) and Xiao-Yang Liu can be found [here](https://arxiv.org/abs/2209.05559)!
 
-## How to use the Framework
+## How to use
 
-In order to ensure reproducability of the results in the paper, the code usage is simplified as much as possible. You start with all the settings in the ```config_main.py``` file. This is where you set all the settings for:
+To reproduce the results in the paper, the codes are simplified as much as possible. You start with the settings in```config_main.py``` file, where you set all the settings for:
 
 - The Walkforward, K-Cross Validation, and Combinatorial Purged Cross Validation (CPCV) methods.
 - Set how many candles/data points you require for training and validation.
@@ -27,7 +27,7 @@ A short description of each folder:
 - ```train``` Holds all utility functions for DRL training
 - ```train_results``` After running either ```1_optimize_cpcv.py``` /  ```1_optimize_kcv.py``` / ```1_optimize_wf.py``` will have a folder with your trained DRL agents
 
-After that, the order of running and producing similar results to in the paper are simple done by following the numbered Python files in the order indicated by the number before the file:
+Then, running and producing similar results to that in the paper are simple, following the numbered Python files as indicated by the number of the filename:
 
 - ```0_dl_trainval_data.py```  Downloads the train and validation data according to ```config_main.py```
 - ```0_dl_trade_data.py``` Downloads the trade data according to ```config_main.py```
@@ -38,7 +38,7 @@ After that, the order of running and producing similar results to in the paper a
 - ```4_backtestpy``` Backtests trained DRL agents (enter multiple results folders from train_results in a list)
 - ```5_pbo.py``` Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
 
-Simply run the scripts in this order. Please note all the trained agents are auto-saved to the folder ```train_results```. That is where you can find your trained DRL agents!
+Simply run the scripts in the above order. Please note the trained agents are auto-saved to the folder ```train_results```. That is where you can find your trained DRL agents!
 
 ## Citing FinRL-Crypto
 
