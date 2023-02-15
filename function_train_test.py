@@ -111,7 +111,7 @@ def test_agent(price_array, tech_array, test_indices, env, env_params, model_nam
     sharpe_eqw, _ = sharpe_iid(eqw_rets_tmp, bench=0, factor=factor, log=False)
 
     account_value_erl = np.array(account_value_erl)
-    drl_rets_tmp = account_value_erl[:-1] / account_value_erl[1:] - 1
+    drl_rets_tmp = account_value_erl[1:] - account_value_erl[:-1]
     sharpe_bot, _ = sharpe_iid(drl_rets_tmp, bench=0, factor=factor, log=False)
 
     return sharpe_bot, sharpe_eqw, drl_rets_tmp

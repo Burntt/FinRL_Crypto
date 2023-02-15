@@ -158,7 +158,7 @@ for count, result in enumerate(pickle_results):
 
     # Compute DRL rets
     account_value_erl = np.array(account_value_erl)
-    drl_rets = account_value_erl[:-1] / account_value_erl[1:] - 1
+    drl_rets = account_value_erl[1:] - account_value_erl[:-1]
     drl_cumrets = [x / account_value_erl[0] - 1 for x in account_value_erl]
     drl_cumrets_list.append(drl_cumrets)
 
